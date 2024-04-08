@@ -2,7 +2,7 @@
 
 ## Usage:
 
-Bu proje script tenable.sc makinasındaki log akışı ile ilgili analiz yaptığı için tenable.sc makinasında çalıştırılmalıdır. Eğer ilgili log dosyaları farklı bir sisteme kopyalanırsa tenable.sc yerine farklı makina üzerinde çalıştılması da mümkündür. Çalıştırıldığı an itibariyle son 5 dakikaya ait log akışı kontrol edilir. Burada geçen <scan-name> ile aynı olan <group> içerisindeki <nessus-agent>'lara ait <ip> adresi bilgilerini listeler.
+Bu proje script tenable.sc makinasındaki log akışı ile ilgili analiz yaptığı için tenable.sc makinasında çalıştırılmalıdır. Eğer ilgili log dosyaları farklı bir sisteme kopyalanırsa tenable.sc yerine farklı makina üzerinde çalıştılması da mümkündür. Çalıştırıldığı an itibariyle son 5 dakikaya ait log akışı kontrol edilir. Akışta geçen scan-name ile aynı olan group içerisindeki tanımlı nessus-agent'lara ait ip adresi bilgilerini listeler.
 
 * jq paketi kurulu olmalıdır.
 
