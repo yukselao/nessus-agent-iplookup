@@ -2,6 +2,18 @@
 
 ## Usage:
 
+Öncelikle config dosyasında düzenleme yapmalısınız.
+
+```bash
+# cat config.ini
+[settings]
+url=https://10.10.10.124:8834
+username=nessusadminuser
+password=P4ssw0rd!!
+accesskey=b5a8cebfb7bc3defb7471852a41895f5955aaaa4d3c901d432c0f51516400e85
+secretkey=8c3207adff7692f7e516bf217796893c55cee2a530234506ee4a1d5696e8127d
+```
+
 Aşağıdaki script tenable.sc makinasında çalıştırılmalıdır. Çalıştırıldığı an itibariyle son 5 dakikaya ait log akışı kontrol edilir. Burada geçen <scan-name> ile aynı olan <group> içerisindeki <nessus-agent>'lara ait <ip> adresi bilgilerini listeler.
 
 * Tenable.sc'de Agent Scan Name ile Group Name eş olmalıdır.
