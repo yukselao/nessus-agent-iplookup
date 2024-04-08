@@ -19,7 +19,7 @@ Aşağıdaki script tenable.sc makinasında çalıştırılmalıdır. Çalışt�
 * Tenable.sc'de Agent Scan Name ile Group Name eş olmalıdır.
 
 ```bash
-[root@tenable-5cfxx56r nessus-agent-iplookup]# ./get-ips.sh
+# ./get-ips.sh
 logfile: /opt/sc/admin/logs/202404.log
 08 Apr 2024 13:42
 08 Apr 2024 13:41
